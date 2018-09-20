@@ -1,0 +1,209 @@
+/*/////////TITLE PAGE/////////*/
+
+.title-banner {
+    background-image: url('../images/Background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+.title-bg-text {
+    font-family: 'Paprika' , cursive;
+    color: #ffffff;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 450px;
+    
+}
+.title-bg-text a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.title-bg-text a:hover {
+    color: #fffb00;
+    
+}
+.title-theme {
+    width: 25%;
+    height: 150px;
+    position: relative;
+    top: 600px;
+}
+
+/*///////////////////HOME PAGE//////////////////////*/
+.nav-bar {
+    top: 0;
+    left: 0;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    z-index: 2;
+}
+.logo {
+    padding-top: 10px;
+    margin-left: 25px;
+    width: 115px;
+    height: 115px;
+}
+.nav-list {
+    list-style-type: none;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+}
+.list-item {
+    font-family: 'Alfa Slab One', cursive;
+    float: left;
+    margin-right: 165px;
+    margin-top: 50px;
+    /*transition: transform .5s*/
+}
+.list-item a {
+    color: #2b3da1;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .1s;
+}
+.list-item a:hover {
+    font-size: 30px;
+    color: #df2c2a;
+}
+.home-banner {
+    background-image: url('../images/AllMight-Banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+    
+}
+.img-one{
+    margin-top: 235px;
+    margin-left: 130px;
+    width: 270px;
+    height: 200px;
+}
+.quote {
+    font-family:'Alfa Slab One', cursive;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 134px;
+    text-align: justify;
+    
+}
+.footer {
+    margin-top: 2%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+    z-index: 2;
+    background-color: #d93130;
+}
+.copyright {
+    color: #ffffff;
+    padding-top: 15px;
+    padding-left: 35px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////CONTACT PAGE///////////////*/
+.contact-background {
+    background-color: #4f89c9;
+}
+.map {
+    overflow: hidden;
+    margin-left: 55px;
+    float: left;
+    width: 48%;
+}
+.map-heading {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 165px;
+}
+
+.contact-form{
+    padding-top: 85px;
+    margin-top: 90px;
+    float: right;
+    bottom: 0;
+    width: 48%;
+    height: 600px;
+}
+.footer-col {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-top: 15px;
+}
+.copyright{
+    float: right;
+    text-size: 15px
+}
+.social{
+    margin-top: 25px;
+    padding-right: 35px;
+}
+.fa-facebook-square{
+    color: #4867aa;
+    margin-right: 35px;
+}
+.fa-twitter-square {
+    color: #1da1f2;
+    margin-right: 35px;
+}
+.fa-instagram {
+    color: #de3c65;
+    margin-right: 35px;
+}
+.fa-snapchat-square {
+    color: #fffb00;
+    margin-right: 35px;
+}
